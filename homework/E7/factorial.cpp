@@ -6,6 +6,8 @@ using namespace std;
 // Use for: large integer values that exceed int range, file sizes, populations, distances
 // comment AI generated btw
 
+// La recursividad es horrible
+
 long factorial(int x) {
   if (x<2) {
     return 1;
